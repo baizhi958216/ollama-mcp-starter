@@ -10,11 +10,11 @@
   "author": "baizhi958216",
   "license": "MIT",
   "devDependencies": {
-    "typescript": "^5.2.2"
+    "typescript": "^5.3.3"
   },
   "dependencies": {
-    "@types/node": "^20.8.10",
-    "nodemon": "^3.0.1",
-    "ts-node": "^10.9.1"
+    "@types/node": "^20.10.4",
+    "nodemon": "^3.0.2",
+    "ts-node": "^10.9.2"
   }
 }
