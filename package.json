@@ -1,7 +1,7 @@
 {
-  "name": "nodejs-ts-starter",
+  "name": "ollama-mcp-starter",
   "version": "1.0.0",
-  "description": "Start A TypeScript Project With NodeJS",
+  "description": " A simple time mcp server with ollama",
   "main": "app.js",
   "scripts": {
     "start": "nodemon --watch src/**/*.ts --exec \"ts-node\" src/app.ts"
@@ -13,8 +13,10 @@
     "typescript": "^5.8.3"
   },
   "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.10.2",
     "@types/node": "^22.15.2",
     "nodemon": "^3.1.10",
+    "openai": "^4.96.0",
     "ts-node": "^10.9.2"
   }
 }
